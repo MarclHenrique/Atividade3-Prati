@@ -1,0 +1,115 @@
+/* Estilos Globais */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+    color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background-color: #0d1b2a;
+    padding: 20px;
+    text-align: center;
+    color: #f4f4f4;
+    border-bottom: 3px solid #4CAF50;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #9fc131;
+}
+
+/* Main Layout */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex: 1;
+}
+
+section {
+    background-color: #222831;
+    padding: 20px;
+    width: 70%;
+    border-radius: 8px;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+section img {
+    display: block;
+    margin: 20px auto;
+    border: 4px solid #4CAF50;
+    border-radius: 8px;
+}
+
+aside {
+    background-color: #393e46;
+    padding: 20px;
+    width: 30%;
+    border-radius: 8px;
+}
+
+aside h3 {
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul li a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+aside ul li a:hover {
+    color: #9fc131;
+}
+
+/* Footer */
+footer {
+    background-color: #0d1b2a;
+    color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+    border-top: 3px solid #4CAF50;
+    font-size: 0.9rem;
+}
